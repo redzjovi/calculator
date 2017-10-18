@@ -1,0 +1,22 @@
+{
+    "name": "redzjovi/calculator",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Jovi",
+            "email": "redzjovi@gmail.com",
+            "homepage": "http://github.com/redzjovi/calculator"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "redzjovi\\calculator\\": "src/"
+        }
+    }
+}
